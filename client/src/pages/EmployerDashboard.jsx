@@ -36,7 +36,7 @@ const EmployerDashboard = () => {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/jobs",
+                "https://iti-apprenticeship-portal-6xp9.onrender.com/api/jobs",
                 {
                     method: "POST",
                     headers: {
@@ -84,7 +84,7 @@ const EmployerDashboard = () => {
     const fetchApplications = async () => {
         try {
             const response = await fetch(
-                "http://localhost:5000/api/applications/employer",
+                "https://iti-apprenticeship-portal-6xp9.onrender.com/api/applications/employer",
                 {
                     headers: {
                         Authorization: `Bearer ${token}`
@@ -123,7 +123,7 @@ const EmployerDashboard = () => {
 
         try {
             const response = await fetch(
-                `http://localhost:5000/api/applications/${applicationId}/status`,
+                `https://iti-apprenticeship-portal-6xp9.onrender.com/api/applications/${applicationId}/status`,
                 {
                     method: "PUT",
                     headers: {

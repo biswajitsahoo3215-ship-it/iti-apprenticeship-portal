@@ -35,7 +35,7 @@ const Register = () => {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/auth/register",
+                "https://iti-apprenticeship-portal-6xp9.onrender.com/api/auth/register",
                 {
                     method: "POST",
                     headers: {
@@ -53,7 +53,7 @@ const Register = () => {
 
             // Registration succeeds, then log the user in.
             const loginResponse = await fetch(
-                "http://localhost:5000/api/auth/login",
+                "https://iti-apprenticeship-portal-6xp9.onrender.com/api/auth/login",
                 {
                     method: "POST",
                     headers: {

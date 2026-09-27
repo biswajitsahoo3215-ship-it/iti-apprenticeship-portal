@@ -17,7 +17,7 @@ const JobDetails = () => {
         const fetchJob = async () => {
             try {
                 const response = await fetch(
-                    `http://localhost:5000/api/jobs/${id}`
+                    `https://iti-apprenticeship-portal-6xp9.onrender.com/api/jobs/${id}`
                 );
 
                 const data = await response.json();
@@ -48,7 +48,7 @@ const JobDetails = () => {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/applications",
+                "https://iti-apprenticeship-portal-6xp9.onrender.com/api/applications",
                 {
                     method: "POST",
                     headers: {

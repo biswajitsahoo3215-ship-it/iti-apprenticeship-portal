@@ -24,17 +24,17 @@ const AdminDashboard = () => {
             const [statsResponse, usersResponse, jobsResponse] =
                 await Promise.all([
                     fetch(
-                        "http://localhost:5000/api/admin/stats",
+                        "https://iti-apprenticeship-portal-6xp9.onrender.com/api/admin/stats",
                         { headers }
                     ),
 
                     fetch(
-                        "http://localhost:5000/api/admin/users",
+                        "https://iti-apprenticeship-portal-6xp9.onrender.com/api/admin/users",
                         { headers }
                     ),
 
                     fetch(
-                        "http://localhost:5000/api/admin/jobs",
+                        "https://iti-apprenticeship-portal-6xp9.onrender.com/api/admin/jobs",
                         { headers }
                     )
                 ]);
@@ -94,7 +94,7 @@ const AdminDashboard = () => {
             setMessage("");
 
             const response = await fetch(
-                `http://localhost:5000/api/admin/users/${userId}`,
+                `https://iti-apprenticeship-portal-6xp9.onrender.com/api/admin/users/${userId}`,
                 {
                     method: "DELETE",
                     headers: {

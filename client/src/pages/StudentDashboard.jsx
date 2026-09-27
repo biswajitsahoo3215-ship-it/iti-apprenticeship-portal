@@ -13,7 +13,7 @@ const StudentDashboard = () => {
         const fetchApplications = async () => {
             try {
                 const response = await fetch(
-                    "http://localhost:5000/api/applications/my",
+                    "https://iti-apprenticeship-portal-6xp9.onrender.com/api/applications/my",
                     {
                         headers: {
                             Authorization: `Bearer ${token}`

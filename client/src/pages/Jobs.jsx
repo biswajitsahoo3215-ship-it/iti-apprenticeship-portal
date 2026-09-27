@@ -10,7 +10,7 @@ const Jobs = () => {
         const fetchJobs = async () => {
             try {
                 const response = await fetch(
-                    "http://localhost:5000/api/jobs"
+                    "https://iti-apprenticeship-portal-6xp9.onrender.com/api/jobs"
                 );
 
                 const data = await response.json();

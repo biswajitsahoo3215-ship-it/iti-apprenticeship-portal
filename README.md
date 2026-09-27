@@ -1,6 +1,18 @@
-# ITI Apprenticeship Portal
+# 🚀 ITI Apprenticeship Portal
 
-A full-stack web application that connects ITI students with apprenticeship opportunities posted by employers.
+A full-stack web application that connects ITI students with apprenticeship opportunities and employers.
+
+## 🌐 Live Demo
+
+👉 [Visit Live Project](https://iti-apprenticeship-portal.vercel.app)
+
+## 💻 GitHub Repository
+
+👉 [View Source Code](https://github.com/biswajitsahoo3215-ship-it/iti-apprenticeship-portal)
+
+## 📸 Project Preview
+
+![ITI Apprenticeship Portal](screenshots/home.png)
 
 The platform provides separate dashboards and features for Students, Employers, and Administrators.
 
